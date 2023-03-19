@@ -162,7 +162,7 @@ public final class HOMainFrame extends JFrame implements Refreshable, ActionList
 //		String teamName = DBManager.instance().getBasics(DBManager.instance().getLatestHRF().getHrfId()).getTeamName();
 
 		String frameTitle = StringUtils.isEmpty(teamName) ? "" : teamName;
-		
+
 		if (!HO.isRelease()) {
 			frameTitle += " (" + HOVerwaltung.instance().getLanguageString("ls.java.version") + ": " + System.getProperty("java.version") + ")";
 		}
@@ -338,11 +338,11 @@ public final class HOMainFrame extends JFrame implements Refreshable, ActionList
 		} else if (source.equals(m_jmAboutAbout)) {
 			Credits.showCredits(HOMainFrame.instance());
 		} else if (source.equals(m_jmHomepageItem)) { // Homepage
-			openURL("https://akasolace.github.io/HO/");
+			openURL("https://ho-dev.github.io/HO/");
 		} else if (source.equals(m_jmWikiItem)) { // User Guide
 			openURL("https://ho.readthedocs.io/");
 		} else if (source.equals(m_jmReportAbug)) { // Report a bug
-			openURL("https://github.com/akasolace/HO/issues/new/choose");
+			openURL("https://github.com/ho-dev/HO/issues/new/choose");
 		}
 
 		else if (source.equals(m_jmCheckUpdate)) {

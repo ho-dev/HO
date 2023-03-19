@@ -10,7 +10,7 @@ If you notice a bug in the code or in docs or have suggestions for how we can im
 
 ## Getting Started
 
-The code is hosted on GitHub, so you will need to use Git to clone the project and make changes to the codebase. 
+The code is hosted on GitHub, so you will need to use Git to clone the project and make changes to the codebase.
 It is also suggested to use IntelliJ IDEA as the main IDE. In case you decide to use Eclipse make sure to add all the relevant filters in the .ignore accordingly.
 
 
@@ -24,14 +24,14 @@ In case you are not familiar with project contribution on GitHub, we suggest you
 
 ### 1. Fork HO
 
-You will need your own fork to work on the code. Go to the HO project page and hit the Fork button. 
+You will need your own fork to work on the code. Go to the HO project page and hit the Fork button.
 
 ### 2. Clone your fork to your machine:
 
 ~~~
 git clone https://github.com/your-user-name/HO.git HO-yourname
 cd HO-yourname
-git remote add upstream https://github.com/akasolace/ho.git 
+git remote add upstream https://github.com/ho-dev/HO.git
 ~~~
 
 This creates the directory HO-yourname and connects your repository to the upstream (main project) HO repository.
@@ -63,9 +63,9 @@ git pull upstream master --ff-only
 
 *When you want to update the feature branch with changes in master after you created the branch, check the section on [updating a PR](#update-your-pull-request)*
 
-Before submitting your changes for review, make sure to pull latest vesrion of master and check that HO builds with your changes. 
-Once your changes are ready to be submitted, make sure to push your changes to GitHub before creating a pull request. 
-You will most likely be asked to make additional changes before it is finally ready to merge. 
+Before submitting your changes for review, make sure to pull latest vesrion of master and check that HO builds with your changes.
+Once your changes are ready to be submitted, make sure to push your changes to GitHub before creating a pull request.
+You will most likely be asked to make additional changes before it is finally ready to merge.
 However, once it's ready, we will merge it, and you will have successfully contributed to the codebase!
 
 
@@ -110,8 +110,8 @@ If you added the upstream repository as described above you will see something l
 ~~~
 origin  git@github.com:yourname/HO.git (fetch)
 origin  git@github.com:yourname/HO.git (push)
-upstream        git://github.com/akasolace/ho.git (fetch)
-upstream        git://github.com/akasolace/ho.git (push)
+upstream        git://github.com/ho-dev/HO.git (fetch)
+upstream        git://github.com/ho-dev/HO.git (push)
 ~~~
 
 Now your code is on GitHub, but it is not yet a part of the HO project. For that to happen, a pull request needs to be submitted on GitHub.
@@ -184,4 +184,3 @@ Make sure you use a lower-case -d, or else git won’t warn you if your feature 
 The branch will still exist on GitHub, so to delete it there do:
 
 ```git push origin --delete shiny-new-feature```
-

@@ -104,7 +104,7 @@ Categories=Game</desktopFile>
       </iconImageFiles>
     </launcher>
   </launchers>
-  <installerGui autoUpdateDescriptorUrl="https://github.com/akasolace/HO/releases/download/tag_stable/updates.xml">
+  <installerGui autoUpdateDescriptorUrl="https://github.com/ho-dev/HO/releases/download/tag_stable/updates.xml">
     <applications>
       <application id="installer" beanClass="com.install4j.runtime.beans.applications.InstallerApplication" actionElevationType="elevated">
         <startup>
@@ -715,7 +715,7 @@ if (context.isUnattended()) {
 }
  args.add("-dir");
  args.add(installationDirectory);
- 
+
  return args.toArray(new String[args.size()]);
 </property>
                             </object>

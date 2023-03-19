@@ -175,7 +175,7 @@ Reports by Contributors - Dec 20, 2021 - August 05, 2022
 * Contributors:
   * 174 wsbrenk
   * 80 akasolace
-  * 4 Sébastien Le Callonnec 
+  * 4 Sébastien Le Callonnec
   * 1 Goran Stefanovic
 
 ## Highlights
@@ -366,7 +366,7 @@ The translation status varies a lot from one language to another. If you can hel
 ### Squad
 
   - Separate rating and match date columns for easier sorting. (#895)
-  - adjusting of experience subskill is displayed in player details panel (#1023) 
+  - adjusting of experience subskill is displayed in player details panel (#1023)
 
 
 ### Team Analyser
@@ -398,11 +398,11 @@ The translation status varies a lot from one language to another. If you can hel
 
 ### Training
   - many bug fixes (#781, #795)
-  - fix training recap table's resetting scroll positions on table refresh  (#1011) 
+  - fix training recap table's resetting scroll positions on table refresh  (#1011)
   - skill losses only begin at the age of 28 years (#1080)
   - experience increase of new national hto matches (#1089)
   - new training formula (#250)
-  
+
 ### League
   - show statistics, power rating (#857)
 
@@ -423,7 +423,7 @@ The translation status varies a lot from one language to another. If you can hel
 ## Translations
   - HO! is currently available in xxx languages thanks to the work of xxx translators. The translation status varies a lot from one language to another. If you can help in a language requiring attention please join in the effort and register on [POeditor](https://poeditor.com/join/project/jCaWGL1JCl):
   - Translators contribution since the previous release (number of translated terms):
-  
+
 
 # Changelist HO! 4.1
 
@@ -783,7 +783,7 @@ The translation status varies a lot from one language to another. If you can hel
 
   - Rating
     - **Timeline allowing to see rating evolution over time**
-    - **re-introduce [User Feedback](https://github.com/akasolace/HO/wiki/FeedBack) in order to allow among other things prediction rating improvement #38 #131**
+    - **re-introduce [User Feedback](https://github.com/ho-dev/HO/wiki/FeedBack) in order to allow among other things prediction rating improvement #38 #131**
     - **Formulas will not use anymore the stars but absolutes and relatives players evaluation’s value #212**
       - In squad and Lineup, are calculated both the absolute and the relative contribution of a player to the ratings
       - The absolute is more or less what would be the sum of his contribution to the 7 sectors
@@ -799,7 +799,7 @@ The translation status varies a lot from one language to another. If you can hel
 
 
 
- - NTHRF: Module is removed, now you can add your NT team in your own HO - see [wiki](https://github.com/akasolace/HO/wiki/NTHRF-since-HO-2.0)
+ - NTHRF: Module is removed, now you can add your NT team in your own HO - see [wiki](https://github.com/ho-dev/HO/wiki/NTHRF-since-HO-2.0)
 
  - Misc
    - **Support for all kind of matches #21**

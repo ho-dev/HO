@@ -54,7 +54,7 @@ public class Credits {
 		hoPanel.add(hoLabel, gbc);
 
 		gbc.gridx = 1;
-		JLabel linkLabel = new HyperLinkLabel("https://akasolace.github.io/HO/");
+		JLabel linkLabel = new HyperLinkLabel("https://ho-dev.github.io/HO/");
 		hoPanel.add(linkLabel, gbc);
 
 		gbc.gridy = 4;
@@ -76,7 +76,7 @@ public class Credits {
 		int result = JOptionPane.showOptionDialog(parent, creditsPanel, HOVerwaltung.instance().getLanguageString("window.about.title"), JOptionPane.YES_NO_OPTION, JOptionPane.PLAIN_MESSAGE, null, options1, null);
 		if (result == JOptionPane.YES_OPTION) {
 			try {
-				BrowserLauncher.openURL("https://raw.githubusercontent.com/akasolace/HO/master/LICENSE");
+				BrowserLauncher.openURL("https://raw.githubusercontent.com/ho-dev/HO/master/LICENSE");
 			} catch (Exception ex) {
 				HOLogger.instance().log(HOMainFrame.class, ex);
 			}

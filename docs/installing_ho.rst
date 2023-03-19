@@ -41,7 +41,7 @@ Latest stable version
 
 All versions of HO! can be downloaded from the release page but usually
 you will want only to use the latest `stable
-version <https://github.com/akasolace/HO/releases/latest>`__
+version <https://github.com/ho-dev/HO/releases/latest>`__
 
 Directory structure
 ****************************************************
@@ -59,14 +59,14 @@ you have a single team and you kept HO! default it will look like:
 
 .. code-block:: json
    :linenos:
-   
+
    [   {     "teamName": "user",     "dbName": "db",     "backupLevel": 3,     "isNtTeam": false   } ]
 
 If you have multiple teams, it could be like:
 
 .. code-block:: json
    :linenos:
-   
+
    [   {     "teamName": "FC Team",     "dbName": "db",     "backupLevel": 5,     "isNtTeam": false   },   {     "teamName": "Reserve Team",     "dbName": "db_reserve",     "backupLevel": 3,     "isNtTeam": false   },   {     "teamName": "National Team XXX",     "dbName": "dbNationalTeam",     "backupLevel": 3,     "isNtTeam": true   } ]
 
 :guilabel:`error.log` and :guilabel:`output.log` are here for debug purposes
@@ -84,8 +84,8 @@ Installed application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Under Windows and MacOS, you might have warning about the fact that HO! is a non-signed app.
-You should still feel perfectly safe to install it, the message only means we are not paying 
-an (expensive) digital certificate to sign a free app. If you are interested on that topic, you can find more information 
+You should still feel perfectly safe to install it, the message only means we are not paying
+an (expensive) digital certificate to sign a free app. If you are interested on that topic, you can find more information
 `here <https://medium.com/vchaincodenotary/developers-unite-against-the-expensive-and-cumbersome-code-signing-certificates-d54342016a64>`__
 
 
@@ -147,33 +147,33 @@ Based on the previous example, here below is a side by side comparison of ``user
 ``user.xml``:
 
 .. code-block:: xml
-   
-    <?xml version='1.0' encoding='UTF-8' ?> 
-    <HoUsers>  
-    <User>    
-      <Name><![CDATA[FC Team]]></Name>    
-      <Url><![CDATA[jdbc:hsqldb:file:db/database]]></Url>    
-      <User><![CDATA[sa]]></User>    
-      <Password><![CDATA[]]></Password>    
-      <Driver><![CDATA[org.hsqldb.jdbcDriver]]></Driver>    
-      <BackupLevel>3</BackupLevel>  
-    </User>  
-    <User>    
-      <Name><![CDATA[Reserve Team]]></Name>    
-      <Url><![CDATA[jdbc:hsqldb:file:db_reserve/database]]></Url>    
-      <User><![CDATA[sa]]></User>    
-      <Password><![CDATA[]]></Password>    
-      <Driver><![CDATA[org.hsqldb.jdbcDriver]]></Driver>    
-      <BackupLevel>3</BackupLevel>  
-    </User>  
-    <User>    
-      <Name><![CDATA[National Team XXX]]></Name>    
-      <Url><![CDATA[jdbc:hsqldb:file:dbNationalTeam/database]]></Url>    
-      <User><![CDATA[sa]]></User>    
-      <Password><![CDATA[]]></Password>   
-      <Driver><![CDATA[org.hsqldb.jdbcDriver]]></Driver>    
-      <BackupLevel>3</BackupLevel>  
-    </User> 
+
+    <?xml version='1.0' encoding='UTF-8' ?>
+    <HoUsers>
+    <User>
+      <Name><![CDATA[FC Team]]></Name>
+      <Url><![CDATA[jdbc:hsqldb:file:db/database]]></Url>
+      <User><![CDATA[sa]]></User>
+      <Password><![CDATA[]]></Password>
+      <Driver><![CDATA[org.hsqldb.jdbcDriver]]></Driver>
+      <BackupLevel>3</BackupLevel>
+    </User>
+    <User>
+      <Name><![CDATA[Reserve Team]]></Name>
+      <Url><![CDATA[jdbc:hsqldb:file:db_reserve/database]]></Url>
+      <User><![CDATA[sa]]></User>
+      <Password><![CDATA[]]></Password>
+      <Driver><![CDATA[org.hsqldb.jdbcDriver]]></Driver>
+      <BackupLevel>3</BackupLevel>
+    </User>
+    <User>
+      <Name><![CDATA[National Team XXX]]></Name>
+      <Url><![CDATA[jdbc:hsqldb:file:dbNationalTeam/database]]></Url>
+      <User><![CDATA[sa]]></User>
+      <Password><![CDATA[]]></Password>
+      <Driver><![CDATA[org.hsqldb.jdbcDriver]]></Driver>
+      <BackupLevel>3</BackupLevel>
+    </User>
   </HoUsers>
 
 
@@ -181,26 +181,26 @@ Based on the previous example, here below is a side by side comparison of ``user
 ``user.json``:
 
 .. code-block:: json
-   
-   [ 
-   {     
-      "teamName": "FC Team",     
+
+   [
+   {
+      "teamName": "FC Team",
       "dbName": "db",
       "backupLevel": 5,
       "isNtTeam": false
       },
       {
-       "teamName": "Reserve Team",     
-       "dbName": "db_reserve",     
-       "backupLevel": 3,     
-       "isNtTeam": false   
-       },   
-       {     
-       "teamName": "National Team XXX",     
-       "dbName": "dbNationalTeam",     
-       "backupLevel": 3,     
-       "isNtTeam": true   
-       } 
+       "teamName": "Reserve Team",
+       "dbName": "db_reserve",
+       "backupLevel": 3,
+       "isNtTeam": false
+       },
+       {
+       "teamName": "National Team XXX",
+       "dbName": "dbNationalTeam",
+       "backupLevel": 3,
+       "isNtTeam": true
+       }
       ]
 
 

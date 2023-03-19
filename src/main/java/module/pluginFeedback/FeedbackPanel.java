@@ -290,7 +290,7 @@ public class FeedbackPanel extends JFrame {
     private boolean fetchRequiredLineup() {
 
         try {
-            URL url = new URL("https://akasolace.github.io/HO/feedback.json");
+            URL url = new URL("https://ho-dev.github.io/HO/feedback.json");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.connect();

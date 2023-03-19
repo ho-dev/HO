@@ -32,7 +32,7 @@
 <tr>
   <td>License</td>
   <td>
-    <a href="https://github.com/akasolace/HO/blob/master/LICENSE">
+    <a href="https://github.com/ho-dev/HO/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/licence-LGPL%203.0-lightgrey.svg" alt="license" />
     </a>
 </td>
